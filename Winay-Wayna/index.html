@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fredy Mamani</title>
+
+  <link rel="stylesheet" href="./css/index.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+ <header class="header">
+    <nav class="nav" id="header-nav">
+      <div class="container f-elements f-elements--header p-relative">
+        <a href="#hero">
+          <img src="./kimetsu1.jpg" alt="kimetsu1" width="48" height="48"
+            class="nav__logo" />
+        </a>
+        <a href="#header-nav" class="nav__icon nav__icon--menu">
+          <i class="bi bi-list"></i>
+        </a>
+        <a href="#header-close" class="nav__icon nav__icon--close">
+          <i class="bi bi-x-circle"></i>
+        </a>
+        <ul class="list list--header f-elements f-elements--center f-elements--responsive gap-md">
+          <li>
+            <a href="#hero" class="list__link">Perfil</a>
+          </li>
+          <li>
+            <a href="#projects" class="list__link">Proyectos</a>
+          </li>
+          <li>
+            <a href="#experiences" class="list__link">Experiencia</a>
+          </li>
+          <li>
+            <a href="#contact" class="list__link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <article id="hero" class="section hero f-elements f-elements--center">
+      <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
+        <div class="card f-elements f-direction-column">
+          <header class="card__header">
+               <h1 class="card__title">Fredy Mamani</h1>
+                </header>
+                <section class="card__body">
+                    <h2 class="card__subtitle">El mejor desarrolladore web  del peru</h2>
+                    <p class="card__text d-none md:d-block">
+                    Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web Frontend.
+                     Apasionado del autoaprendizaje y del código limpio.
+                </p>
+            </section>
+            <footer class="card__footer">
+                <div class="f-elements f-elements--center gap-sm">
+                  <a href="https://1drv.ms/u/s!As5U-bd3F-a6gYsmbbG-Dybk88biRQ?e=7q73aZ" target="_blank"
+                    rel="noopener noreferrer" class="button button--primary">CV</a>
+                  <a href="https://github.com/ElliotXLeo" target="_blank" rel="noopener noreferrer"
+                    class="button button--outline-primary">GitHub</a>
+                </div>
+              </footer>
+            </div>
+            <div>
+                <img src="./assets/fred.jpg" alt="fred" width="350" height="250" class="hero__primary-img">
+                <figure class="hero__decorators">
+                    <img src="./assets/coding-svgrepo-com.svg" alt="" width="45" height="45" class="hero__decorator">
+                    <img src="./assets/codeigniter-logo-svgrepo-com.svg" alt="" width="45" height="45" class="hero__decorator">
+                    <img src="./assets/xampp-svgrepo-com.svg" alt="" width="45" height="45" class="hero__decorator">
+                    <img src="./assets/php-svgrepo-com.svg" alt="" width="45" height="45" class="hero__decorator">   
+                </figure>
+            </div>
+        </div>
+    </article>
+    <section class="section" id="projects">
+        <div class="container f-elements f-direction-column gap-md">
+          <h2 class="section__title">💻 Proyectos 💻</h2>
+          <div class="g-elements g-elements--gallery j-items-center gap-sm">
+            <div class="card f-elements f-direction-column">
+              <img src="https://i.postimg.cc/LXPKVpKW/cineverse.png" alt="Cineverse" class="card__img" />
+              <div class="card__body f-elements f-direction-column gap-xs">
+                <h3 class="card__title">Cineverse</h3>
+                <p class="card__text">
+                  Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las 4B Bueno,
+                  bonito, barato y bastante. Compra tus entradas de forma digital, rápido y sin colas.
+                </p>
+              </div>
+              <div class="card__footer">
+                <div class="f-elements f-elements--center gap-sm">
+                  <a href="https://cineverseelgs.netlify.app" target="_blank" rel="noopener noreferrer"
+                    class="button button--primary">Demo</a>
+                  <a href="https://github.com/ElliotXLeo/cineverse" target="_blank" rel="noopener noreferrer"
+                    class="button button--secondary">Código</a>
+                </div>
+              </div>
+            </div>
+            <div class="card f-elements f-direction-column">
+              <img src="https://i.postimg.cc/3rcDR8Wh/next-project-mern.png" alt="Cineverse" class="card__img" />
+              <div class="card__body f-elements f-direction-column gap-xs">
+                <h3 class="card__title">Next Project MERN</h3>
+                <p class="card__text">
+                  Aplicación de Administrador de Proyectos que llevarán tu gestión al siguiente nivel. En él puedes
+                  administrar los proyectos de tus sueños y sus actividades de inicio a fin.
+                </p>
+              </div>
+              <div class="card__footer">
+                <div class="f-elements f-elements--center gap-sm">
+                  <a href="https://next-project-mern-frontend.netlify.app" target="_blank" rel="noopener noreferrer"
+                    class="button button--primary">Demo</a>
+                  <a href="https://github.com/ElliotXLeo/next-project-mern-frontend" target="_blank"
+                    rel="noopener noreferrer" class="button button--secondary">Código</a>
+                </div>
+              </div>
+            </div>
+            <div class="card f-elements f-direction-column">
+              <img src="https://i.postimg.cc/BvYqBcY3/pokemons-crud-redux-react.png" alt="Cineverse" class="card__img" />
+              <div class="card__body f-elements f-direction-column gap-xs">
+                <h3 class="card__title">Pokémons CRUD</h3>
+                <p class="card__text">
+                  Administrador de Pokémon’s.
+                </p>
+              </div>
+              <div class="card__footer">
+                <div class="f-elements f-elements--center gap-sm">
+                  <a href="https://pokemons-crud-redux-react.netlify.app/pokemons" target="_blank"
+                    rel="noopener noreferrer" class="button button--primary">Demo</a>
+                  <a href="https://github.com/ElliotXLeo/pokemons-crud-redux-react" target="_blank"
+                    rel="noopener noreferrer" class="button button--secondary">Código</a>
+                </div>
+              </div>
+            </div>
+            <div class="card f-elements f-direction-column">
+              <img src="https://i.postimg.cc/prBc3CPG/pancito-feliz-r.png" alt="Cineverse" class="card__img" />
+              <div class="card__body f-elements f-direction-column gap-xs">
+                <h3 class="card__title">Pancito Feliz</h3>
+                <p class="card__text">
+                  Aplicación de una Panadería que te permite ver los productos, servicios y cambiar el tema.
+                </p>
+              </div>
+              <div class="card__footer">
+                <div class="f-elements f-elements--center gap-sm">
+                  <a href="https://github.com/ElliotXLeo/pancito-feliz-r" target="_blank"
+                    rel="noopener noreferrer" class="button button--primary">Demo</a>
+                  <a href="https://github.com/ElliotXLeo/pancito-feliz-r" target="_blank"
+                    rel="noopener noreferrer" class="button button--secondary">Código</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    <section id="experiencias">
+        <div>
+        <h2>Experiencias</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>N°</td>
+                    <td>Empresa</td>
+                    <td>Cargo</td>
+                    <td>Funciones</td>
+                    <td>Periodo</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Cine planet</td>
+                    <td>developer</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web Frontend.
+                                Apasionado del autoaprendizaje y del código limpio.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                enero 2022, presente
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Dance</td>
+                    <td>Instructor</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Planifica el programa de formación a impartir, selecciona la música y las rutinas de ensayo.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                               marzo 2022, presente
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>tecsup</td>
+                    <td>Student</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Nuestros estudiantes trabajen en modernos laboratorios y talleres, desarrollen proyectos multidisciplinarios y participen en actividades deportivas y culturales.
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                abril 2022, presente
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer">Ver mas Experiencias</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+    </section>
+    <hr>
+    <section id="contacto">
+        <div>
+            <h2>Contacto</h2>
+            <form>
+                <input type="tel" placeholder="Nomdre" required />
+                <button>🕵️‍♂️Contactar👀</button>             
+            </form>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>😭Frase motivadoras😭</h2>
+            <p>Al final de la tarde, deja planificado el día siguiente, especialmente la 
+                tarea clave en la que te quieres enfocar. Dedica de nuevo unos minutos a
+                leer algunas de las mejores frases motivadoras cortas, y deja que te recuerden el sentido de lo que haces.</p>
+        </div>
+    </section>
+  </main>
+  <footer>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/">
+                    <img src="./assets/facebook-svgrepo-com.svg" alt="facebook" width="24" height="24">
+                </a>
+            </li>
+            <li>
+                <a href="https://web.whatsapp.com/">
+                    <img src="./assets/whatsapp-whats-app-svgrepo-com.svg" alt="whatsapp"  width="24" height="24">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/watch?v=FTzN6bwPNJw&t=659s" >
+                    <img src="./assets/youtube-svgrepo-com.svg" alt="youtube"  width="24" height="24">
+                </a>
+            </li>
+        </ul>
+        <h2>
+            👻Copyright &copy;
+            <a href="https://tecsup.instructure.com/courses/31725/pages/cronograma">
+                Fredy Mamani
+            </a>
+            Todos los derechos reservados👻
+        </h2>
+    </nav>
+  </footer>
+</body>
+</html> 
